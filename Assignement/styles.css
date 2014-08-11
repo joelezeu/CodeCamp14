@@ -1,0 +1,17 @@
+a[href^="http://"]{
+	color: #DDD;
+}
+
+a[href^="malito:"]{
+	color: white;
+}
+
+a[href$=".pdf"]{
+	background:url('../img/pdf.png') no repeat;
+	
+}
+
+li:nth-child(n+5){
+border:2xp solid black;
+color: yellow;
+}
